@@ -1,3 +1,27 @@
+
+*Done*
+----------------------------------------------------------------
+**Client**
+- [x] Client kan niet meer dan drie afspraken tegelijk inplannen
+- [x] Bij annulatie afspraak door client mail naar therapeut met de de annulatiegegevens(standaardmail)
+- [x] Annulatie korter dan 24 uur onmogelijk maken.
+- [x] Zelf Afspraak maken enkel mogelijk wanneer client in de kolom in therapie zit, anders niet.
+- [x] Boeken voor client als therapeut moet twee knoppen na datumselectie: Reservatie(voor eerste consult, met token?) of boeking voor een client die het zelf niet kan
+
+**Therapeut**
+- [x] Archiveringsknop bij client permanent actief laten
+- [x] Geen afspraken meer inboeken 48 uur op voorhand
+- [x] Zoeken naar clienten op emailadres, telefoon, achternaam, voornaam
+- [x] Weergeven hoe lang client al in kolom datum voorgesteld zit. Indien dit langer is dan afspraakvoorstel geldig, melding in knop of in venster rechtsboven
+
+**Developer**
+- [x] Notes working again
+- [x] GDPR akkoord geven in het intake formulier
+- [x] Algemene voorwaarden akkoord geven in intake formulier
+
+
+
+
 *Need to have*
 ----------------------------------------------------------------
 **Client**
@@ -41,26 +65,5 @@
 - Mogelijkheid om extra emailadres toe te voegen aan client(optional_key?)
 - Mogelijkheid om een cancellation mail te sturen voor alle afspraken op de huidige dag in geval van ziekte of dergelijke
 
-----------------------------------------------------------------
-----------------------------------------------------------------
 
 
-*Done*
-----------------------------------------------------------------
-**Client**
-- [x] Client kan niet meer dan drie afspraken tegelijk inplannen
-- [x] Bij annulatie afspraak door client mail naar therapeut met de de annulatiegegevens(standaardmail)
-- [x] Annulatie korter dan 24 uur onmogelijk maken.
-- [x] Zelf Afspraak maken enkel mogelijk wanneer client in de kolom in therapie zit, anders niet.
-- [x] Boeken voor client als therapeut moet twee knoppen na datumselectie: Reservatie(voor eerste consult, met token?) of boeking voor een client die het zelf niet kan
-
-**Therapeut**
-- [x] Archiveringsknop bij client permanent actief laten
-- [x] Geen afspraken meer inboeken 48 uur op voorhand
-- [x] Zoeken naar clienten op emailadres, telefoon, achternaam, voornaam
-- [x] Weergeven hoe lang client al in kolom datum voorgesteld zit. Indien dit langer is dan afspraakvoorstel geldig, melding in knop of in venster rechtsboven
-
-**Developer**
-- [x] Notes working again
-- [x] GDPR akkoord geven in het intake formulier
-- [x] Algemene voorwaarden akkoord geven in intake formulier
