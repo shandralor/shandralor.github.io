@@ -17,6 +17,15 @@
 - [x] Client bevestigd afspraak per mail. Standaardmail met betalingsinformatie wanneer client datum bevestigd. Dus bij verschuiven van kolom datum voorgesteld naar kolom in afwachting betaling.
 - [x] Als therapeut afspraak inplannen voor client stuurt een automatische mail met afspraakbevesting naar de client
 - [x] Meer dan dan drie afspraken tegelijk inplannen voor een client kan wel als therapeut(admin check ?)
+- [x] Keuze voor vervolgafspraak tussen online en ter plekke
+- [x] Acceptatie client uitwerken met groene bevestigingsknop en ook toevoeging aan standaardmail(afspraakvoorstel van Mincht). In afspraakvoorstel ook zetten hoe lang het geldig blijft(default = 5 dagen).
+- [x] Boeken als admin kan niet meer in het verleden\
+- [x] Bij clients clienten weergeven, gesorteerd op eerste letter voornaam of achternaam, laatste consult
+- [x] Clienten bij clients ook een veld laatste afspraak en daar ook kunnen op sorteren
+- [x] Reactiveer client bij heraanmelding, archiveerknop bovenaan wordt activeerknop
+- [x] Index bij clienten die aangeeft hoeveel actieve clienten er momenteel zijn
+- [x] Notities sorteren op nieuwste bovenaan
+- [x] Aanmeldingsdatum toevoegen aan intake form als hidden field.
 
 **Developer**
 - [x] Notes working again
@@ -32,12 +41,10 @@
 - Reverse date
 
 **Therapeut**
-- Keuze voor vervolgafspraak tussen online en ter plekke
+
 - Meeting opruimen van intake proposal indien client niet binnen vijf dagen heeft geantwoord
 
 - Edit client gegevens wanneer nodig
-
-- Acceptatie client uitwerken met groene bevestigingsknop en ook toevoeging aan standaardmail(afspraakvoorstel van Mincht). In afspraakvoorstel ook zetten hoe lang het geldig blijft(default = 5 dagen).
 
 - Meldingen panel met nieuwste melding bovenaan en klikken op melding zet deze als gelezen en de melding verdwijnt uit de lijst
 
@@ -53,20 +60,12 @@
 - 48 en 25 uur op voorhand remindermail(standaardmail) met afspraak herinnering.
 
 - Documenten uploaden naar clientenprofiel
+
 - Foto's toevoegen aan profiel?
 
 - Doorklikken naar volgende weken in dashboard om afspraken te zien
 
-- Reactiveer client bij heraanmelding, archiveerknop bovenaan wordt activeerknop
-
-- Bij clients clienten weergeven, gesorteerd op eerste letter voornaam of achternaam, laatste consult
-
-- Notities sorteren op nieuwste bovenaan
-- Notities kunnen aanpasen na dat deze gemaakt is
-
-- Aanmeldingsdatum toevoegen aan intake form als hidden field.
-- Clienten bij clients ook een veld laatste afspraak en daar ook kunnen op sorteren
-- Index bij clienten die aangeeft hoeveel actieve clienten er momenteel zijn
+- Notities kunnen aanpassen na dat deze gemaakt is
 
 - Active clients naar excel export
 
