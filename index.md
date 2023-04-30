@@ -26,6 +26,16 @@
 - [x] Index bij clienten die aangeeft hoeveel actieve clienten er momenteel zijn
 - [x] Notities sorteren op nieuwste bovenaan
 - [x] Aanmeldingsdatum toevoegen aan intake form als hidden field.
+- [x] Kleurenschema voor afspraken huidige week per dag(montessori kleuren per dag)
+- [x] Active clients naar excel export
+- [x] Mail bij verschuiving kolom 3 naar 4 dat de afspraak definitief is(standaardmail).
+- [x] Stripe melding als client x betaald heeft voor y(webhook).
+- [x] Automatische switch van kolom 3 naar kolom 4 als de betaling binnen is.
+- [x] Kleurenschema voor afspraken huidige week per dag(montessori kleuren per dag)
+- [x] Meeting opruimen van intake proposal indien client niet binnen vijf dagen heeft geantwoord
+- [x] Melding indien client 7 dagen op voorhand nog niet betaald heeft(dus tijd tot meeting  =< 7dagen).
+- [x] Standaardmail met betalingsherinnering sturen naar client via 1 klik.
+- [x] 2 dagen op voorhand indien afspraak niet betaald, afspraak opruimen, mail naar client dat afspraak geannuleerd is en afspraakslot kom terug vrij in agenda
 
 **Developer**
 - [x] Notes working again
@@ -41,21 +51,15 @@
 - Reverse date
 
 **Therapeut**
-
-- Meeting opruimen van intake proposal indien client niet binnen vijf dagen heeft geantwoord
-
 - Edit client gegevens wanneer nodig
 
 - Meldingen panel met nieuwste melding bovenaan en klikken op melding zet deze als gelezen en de melding verdwijnt uit de lijst
 
-- Melding indien client 7 dagen op voorhand nog niet betaald heeft(dus tijd tot meeting  =< 7dagen).
-- Standaardmail met betalingsherinnering sturen naar client via 1 klik.
-
 - Afspraak kunnen annuleren binnen profiel van client door op de afspraak van client te klikken en annulatie. Annulatie mail(standaardmail) wordt automatisch geannuleerd.
-- Reschedule van afspraken mogelijk maken door op de afspraak in kwestie te klikken en dan de knop reschedule te kiezen(oude annuleren en nieuwe maken). Standaardmail met reschedule gegevens naar client met zowel gecancelde als nieuwe afspraak.
-- Change appointment type in the edit modal van de afspraak + mail naar client indien afspraak type wordt veranderd
 
-- Mail bij verschuiving kolom 3 naar 4 dat de afspraak definitief is(standaardmail).
+- Reschedule van afspraken mogelijk maken door op de afspraak in kwestie te klikken en dan de knop reschedule te kiezen(oude annuleren en nieuwe maken). Standaardmail met reschedule gegevens naar client met zowel gecancelde als nieuwe afspraak.
+
+- Change appointment type in the edit modal van de afspraak + mail naar client indien afspraak type wordt veranderd
 
 - 48 en 25 uur op voorhand remindermail(standaardmail) met afspraak herinnering.
 
@@ -66,8 +70,6 @@
 - Doorklikken naar volgende weken in dashboard om afspraken te zien
 
 - Notities kunnen aanpassen na dat deze gemaakt is
-
-- Active clients naar excel export
 
 - Berekenen op basis van bi-weekly of maandelijks en active hoeveel plaatsen er ingenomen zijn en hoeveel plaatsen er nog vrij zijn gebaseerd op maandelijkse vrije plaatsen
 
@@ -84,14 +86,14 @@
 *Nice to have*
 ----------------------------------------------------------------
 **Client**
-- Stripe melding als client x betaald heeft voor y(webhook).
-- Automatische switch van kolom 3 naar kolom 4 als de betaling binnen is.
+
+
 - No show bij klikken op afspraak client met mail naar client dat de gemaakte afspraak niet werd nageleefd met betalingsvoorstel om het consult te betalen in overeenkomst met de algemene voorwaarden.
 - Geen afspraken cancellen die al voorbij zijn
 
 **Therapeut**
 - Mogelijkheid om extra emailadres toe te voegen aan client(optional_key?)
 - Mogelijkheid om een cancellation mail te sturen voor alle afspraken op de huidige dag in geval van ziekte of dergelijke
-- Kleurenschema voor afspraken huidige week per dag(montessori kleuren per dag)
+
 - Functie die in dashboard toont of een afspraak nog bezig is of niet en gemakkelijk toelaat nieuwe afspraak te boeken
 
