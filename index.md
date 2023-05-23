@@ -8,6 +8,7 @@
 - [x] Annulatie korter dan 24 uur onmogelijk maken.
 - [x] Zelf Afspraak maken enkel mogelijk wanneer client in de kolom in therapie zit, anders niet.
 - [x] Boeken voor client als therapeut moet twee knoppen na datumselectie: Reservatie(voor eerste consult, met token?) of boeking voor een client die het zelf niet kan
+- [x] Reverse date
 
 **Therapeut**
 - [x] Archiveringsknop bij client permanent actief laten
@@ -36,6 +37,10 @@
 - [x] Melding indien client 7 dagen op voorhand nog niet betaald heeft(dus tijd tot meeting  =< 7dagen).
 - [x] Standaardmail met betalingsherinnering sturen naar client via 1 klik.
 - [x] 2 dagen op voorhand indien afspraak niet betaald, afspraak opruimen, mail naar client dat afspraak geannuleerd is en afspraakslot kom terug vrij in agenda
+- [x] 48 en 25 uur op voorhand remindermail(standaardmail) met afspraak herinnering.
+- [x] Change appointment type in the edit modal van de afspraak + mail naar client indien afspraak type wordt veranderd
+- [x] Afspraak kunnen annuleren binnen profiel van client door op de afspraak van client te klikken en annulatie. Annulatie mail(standaardmail) wordt automatisch geannuleerd.
+- [x] Reschedule van afspraken mogelijk maken door op de afspraak in kwestie te klikken en dan de knop reschedule te kiezen(oude annuleren en nieuwe maken). Standaardmail met reschedule gegevens naar client met zowel gecancelde als nieuwe afspraak.
 
 **Developer**
 - [x] Notes working again
@@ -48,20 +53,16 @@
 *Need to have*
 ----------------------------------------------------------------
 **Client**
-- Reverse date
+
 
 **Therapeut**
 - Edit client gegevens wanneer nodig
 
 - Meldingen panel met nieuwste melding bovenaan en klikken op melding zet deze als gelezen en de melding verdwijnt uit de lijst
 
-- Afspraak kunnen annuleren binnen profiel van client door op de afspraak van client te klikken en annulatie. Annulatie mail(standaardmail) wordt automatisch geannuleerd.
 
-- Reschedule van afspraken mogelijk maken door op de afspraak in kwestie te klikken en dan de knop reschedule te kiezen(oude annuleren en nieuwe maken). Standaardmail met reschedule gegevens naar client met zowel gecancelde als nieuwe afspraak.
 
-- Change appointment type in the edit modal van de afspraak + mail naar client indien afspraak type wordt veranderd
 
-- 48 en 25 uur op voorhand remindermail(standaardmail) met afspraak herinnering.
 
 - Documenten uploaden naar clientenprofiel
 
@@ -76,6 +77,8 @@
 - Create consultation aanpassen met voornaam en naam client
 
 - Betalingsmodule die alle betalingen registreert met prijzenkeuze, zoals excel huidig, inclusief betaalmethode
+
+- Dubbelcheck waarom bij een meeting die niet online is er toch gewisseld wordt als er dezelfde mogelijkheid wordt gekozen
 
 
 **Developer**
