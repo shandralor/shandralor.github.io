@@ -41,6 +41,7 @@
 - [x] Change appointment type in the edit modal van de afspraak + mail naar client indien afspraak type wordt veranderd
 - [x] Afspraak kunnen annuleren binnen profiel van client door op de afspraak van client te klikken en annulatie. Annulatie mail(standaardmail) wordt automatisch geannuleerd.
 - [x] Reschedule van afspraken mogelijk maken door op de afspraak in kwestie te klikken en dan de knop reschedule te kiezen(oude annuleren en nieuwe maken). Standaardmail met reschedule gegevens naar client met zowel gecancelde als nieuwe afspraak.
+- [x] No show bij klikken op afspraak client met mail naar client dat de gemaakte afspraak niet werd nageleefd met betalingsvoorstel om het consult te betalen in overeenkomst met de algemene voorwaarden. Client kan niet meer boeken tot betaling gemist consult.
 
 **Developer**
 - [x] Notes working again
@@ -59,10 +60,6 @@
 - Edit client gegevens wanneer nodig
 
 - Meldingen panel met nieuwste melding bovenaan en klikken op melding zet deze als gelezen en de melding verdwijnt uit de lijst
-
-
-
-
 
 - Documenten uploaden naar clientenprofiel
 
@@ -91,7 +88,7 @@
 **Client**
 
 
-- No show bij klikken op afspraak client met mail naar client dat de gemaakte afspraak niet werd nageleefd met betalingsvoorstel om het consult te betalen in overeenkomst met de algemene voorwaarden.
+
 - Geen afspraken cancellen die al voorbij zijn
 
 **Therapeut**
