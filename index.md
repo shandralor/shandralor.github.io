@@ -77,6 +77,7 @@
 
 - Dubbelcheck waarom bij een meeting die niet online is er toch gewisseld wordt als er dezelfde mogelijkheid wordt gekozen
 
+- Client kunnen aanmaken 
 
 **Developer**
 - Check DMARC AND DKIM
@@ -86,9 +87,6 @@
 *Nice to have*
 ----------------------------------------------------------------
 **Client**
-
-
-
 - Geen afspraken cancellen die al voorbij zijn
 
 **Therapeut**
