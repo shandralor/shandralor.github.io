@@ -42,6 +42,8 @@
 - [x] Afspraak kunnen annuleren binnen profiel van client door op de afspraak van client te klikken en annulatie. Annulatie mail(standaardmail) wordt automatisch geannuleerd.
 - [x] Reschedule van afspraken mogelijk maken door op de afspraak in kwestie te klikken en dan de knop reschedule te kiezen(oude annuleren en nieuwe maken). Standaardmail met reschedule gegevens naar client met zowel gecancelde als nieuwe afspraak.
 - [x] No show bij klikken op afspraak client met mail naar client dat de gemaakte afspraak niet werd nageleefd met betalingsvoorstel om het consult te betalen in overeenkomst met de algemene voorwaarden. Client kan niet meer boeken tot betaling gemist consult.
+- [x] Client kunnen aanmaken 
+- [x] Create consultation aanpassen met voornaam en naam client
 
 **Developer**
 - [x] Notes working again
@@ -71,13 +73,13 @@
 
 - Berekenen op basis van bi-weekly of maandelijks en active hoeveel plaatsen er ingenomen zijn en hoeveel plaatsen er nog vrij zijn gebaseerd op maandelijkse vrije plaatsen
 
-- Create consultation aanpassen met voornaam en naam client
+
 
 - Betalingsmodule die alle betalingen registreert met prijzenkeuze, zoals excel huidig, inclusief betaalmethode
 
 - Dubbelcheck waarom bij een meeting die niet online is er toch gewisseld wordt als er dezelfde mogelijkheid wordt gekozen
 
-- Client kunnen aanmaken 
+
 
 **Developer**
 - Check DMARC AND DKIM
