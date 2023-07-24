@@ -44,6 +44,11 @@
 - [x] No show bij klikken op afspraak client met mail naar client dat de gemaakte afspraak niet werd nageleefd met betalingsvoorstel om het consult te betalen in overeenkomst met de algemene voorwaarden. Client kan niet meer boeken tot betaling gemist consult.
 - [x] Client kunnen aanmaken 
 - [x] Create consultation aanpassen met voornaam en naam client
+- [x] Documenten uploaden naar clientenprofiel
+- [x] Edit client gegevens wanneer nodig
+- [x] Mogelijkheid om extra emailadres toe te voegen aan client(optional_key?)
+- [x] Documenten downloaden van client profiel
+- [x] Admin management
 
 **Developer**
 - [x] Notes working again
@@ -59,11 +64,9 @@
 
 
 **Therapeut**
-- Edit client gegevens wanneer nodig
+
 
 - Meldingen panel met nieuwste melding bovenaan en klikken op melding zet deze als gelezen en de melding verdwijnt uit de lijst
-
-- Documenten uploaden naar clientenprofiel
 
 - Foto's toevoegen aan profiel?
 
@@ -72,8 +75,6 @@
 - Notities kunnen aanpassen na dat deze gemaakt is
 
 - Berekenen op basis van bi-weekly of maandelijks en active hoeveel plaatsen er ingenomen zijn en hoeveel plaatsen er nog vrij zijn gebaseerd op maandelijkse vrije plaatsen
-
-
 
 - Betalingsmodule die alle betalingen registreert met prijzenkeuze, zoals excel huidig, inclusief betaalmethode
 
@@ -92,7 +93,7 @@
 - Geen afspraken cancellen die al voorbij zijn
 
 **Therapeut**
-- Mogelijkheid om extra emailadres toe te voegen aan client(optional_key?)
+
 - Mogelijkheid om een cancellation mail te sturen voor alle afspraken op de huidige dag in geval van ziekte of dergelijke
 
 - Functie die in dashboard toont of een afspraak nog bezig is of niet en gemakkelijk toelaat nieuwe afspraak te boeken
